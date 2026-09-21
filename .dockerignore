@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/raw/
+data/staging/
+data/curated/
+data/quarantine/
+data/benchmarks/
+data/partitioned/
+logs/
+.git/
+.env
