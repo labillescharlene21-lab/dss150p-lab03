@@ -5,7 +5,9 @@ data/raw/
 data/staging/
 data/curated/
 data/quarantine/
-data/benchmarks/
+data/benchmarks/benchmark.csv
+data/benchmarks/benchmark.jsonl
+data/benchmarks/benchmark.parquet
 data/partitioned/
 logs/
 *.egg-info/

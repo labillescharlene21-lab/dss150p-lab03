@@ -1,0 +1,5 @@
+format,size_bytes,write_time_s,full_read_median_s,filtered_read_median_s,row_count,filtered_row_count,hardware_context
+CSV,14947378,1.439414,0.375193,0.364336,49897,8355,"Windows 10 | Intel64 Family 6 Model 158 Stepping 10, GenuineIntel | Python 3.10.11"
+JSON Lines,30240692,1.147397,0.901812,1.11682,49897,8355,"Windows 10 | Intel64 Family 6 Model 158 Stepping 10, GenuineIntel | Python 3.10.11"
+Parquet,5430924,0.171198,0.071293,0.033252,49897,8355,"Windows 10 | Intel64 Family 6 Model 158 Stepping 10, GenuineIntel | Python 3.10.11"
+PostgreSQL,16506880,0.008189,0.492179,0.084059,49897,8355,"Windows 10 | Intel64 Family 6 Model 158 Stepping 10, GenuineIntel | Python 3.10.11"
