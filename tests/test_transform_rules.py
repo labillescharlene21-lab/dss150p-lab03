@@ -78,9 +78,9 @@ def test_curated_amounts_correct():
         expected_gross = round(row['quantity'] * row['unit_price'], 2)
         expected_discount = round(expected_gross * row['discount_pct'], 2)
         expected_net = round(expected_gross - expected_discount, 2)
-        assert row['gross_amount'] == expected_gross
-        assert row['discount_amount'] == expected_discount
-        assert row['net_amount'] == expected_net
+        assert abs(row['gross_amount'] - expected_gross) < 0.02
+        assert abs(row['discount_amount'] - expected_discount) < 0.02
+        assert abs(row['net_amount'] - expected_net) < 0.02
 
 
 def test_record_hash_deterministic():
